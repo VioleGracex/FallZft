@@ -1,0 +1,56 @@
+{
+    "name": "Mouse",
+    "maps": [
+        {
+            "name": "ass",
+            "id": "64010d02-1d77-4f8b-ab20-32638043e945",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "a025d8b0-43c0-4efd-b132-ffeeb87bf9cf",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ae45f759-ea11-4024-951e-586efe7e6fb6",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ffd0b3e-13c7-48b3-becf-967da256edb2",
+                    "path": "<VirtualMouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5a98af32-30ae-4c7b-8036-9daae6ae69e1",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
